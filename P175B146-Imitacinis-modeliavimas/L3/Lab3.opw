@@ -1,0 +1,29 @@
+[RESOURCES]
+Perdirbejas
+A irenginys
+Testuotojas
+C irenginys
+B irenginys
+[VARIABLES]
+A detaliu apdorojimas.NumberOut
+C detaliu apdorojimas.NumberOut
+Perdirbimo rezultatas.NumberOut True
+B detaliu generavimas.NumberOut
+Transportuojamos detales pabaigoje.NumberOut
+Testavimo procesas.NumberIn
+B detaliu apdorojimas.NumberOut
+Testavimo rezultatas.NumberOut False
+A detaliu apdorojimas.NumberIn
+C detaliu generavimas.NumberOut
+Perdirbimo procesas.NumberIn
+Ar c detale.NumberOut False
+Perdirbimo procesas.NumberOut
+Perdirbimo rezultatas.NumberOut False
+Perdirbtos detales pabaigoje.NumberOut
+Testavimo rezultatas.NumberOut True
+C detaliu apdorojimas.NumberIn
+Ar c detale.NumberOut True
+A detaliu pristatymas.NumberOut
+Sunaikintos detales pabaigoje.NumberOut
+B detaliu apdorojimas.NumberIn
+Testavimo procesas.NumberOut

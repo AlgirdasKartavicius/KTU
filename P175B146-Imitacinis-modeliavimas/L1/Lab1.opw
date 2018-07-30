@@ -1,0 +1,12 @@
+[RESOURCES]
+kasininke1
+kasininke2
+[VARIABLES]
+Kuri kasa?.NumberOut True
+Kasa1.NumberIn
+Kasa2.NumberOut
+Klientu atvykimas.NumberOut
+Klientu isvykimas.NumberOut
+Kasa1.NumberOut
+Kasa2.NumberIn
+Kuri kasa?.NumberOut False

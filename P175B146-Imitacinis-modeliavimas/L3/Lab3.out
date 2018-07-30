@@ -1,0 +1,102 @@
+
+                                      ARENA Simulation Results
+                          mangirdas.kazlauskas@inbox.lt - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Elektroniniu detaliu apdorojimo ir testavimo modelis        Run execution date :12/19/2017
+Analyst: Mangirdas Kazlauskas                                        Model revision date:12/19/2017
+
+Replication ended at time      : 16.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Perdirbtos detales                          4.0922     (Insuf)    .73187     15.317         25    
+Transportuojamos detales                    3.3683     (Corr)     .07429     15.969        325    
+Sunaikintos detales                         3.4922     (Insuf)    .93344     11.207          5    
+B detale.VATime                             .17221     (Insuf)    .07997     1.3290         84    
+B detale.NVATime                            .00000     (Insuf)    .00000     .00000         84    
+B detale.WaitTime                           .92332     (Insuf)    .00000     2.1034         84    
+B detale.TranTime                           .00000     (Insuf)    .00000     .00000         84    
+B detale.OtherTime                          .00000     (Insuf)    .00000     .00000         84    
+B detale.TotalTime                          1.0955     (Insuf)    .12743     2.5607         84    
+C detale.VATime                             .15137     (Insuf)    .08505     1.9816        105    
+C detale.NVATime                            .00000     (Insuf)    .00000     .00000        105    
+C detale.WaitTime                           1.1448     (Insuf)    .00000     2.7054        105    
+C detale.TranTime                           .00000     (Insuf)    .00000     .00000        105    
+C detale.OtherTime                          .00000     (Insuf)    .00000     .00000        105    
+C detale.TotalTime                          1.2962     (Insuf)    .11022     3.2038        105    
+A detale.VATime                             .14069     (Insuf)    .05348     1.1459        166    
+A detale.NVATime                            .00000     (Insuf)    .00000     .00000        166    
+A detale.WaitTime                           .95152     (Insuf)    .00000     2.1307        166    
+A detale.TranTime                           .00000     (Insuf)    .00000     .00000        166    
+A detale.OtherTime                          .00000     (Insuf)    .00000     .00000        166    
+A detale.TotalTime                          1.0922     (Insuf)    .07429     2.3267        166    
+A detaliu apdorojimas.Queue.WaitingTime     .15308     (Insuf)    .00000     .51448        184    
+Testavimo procesas.Queue.WaitingTime        .77030     (Corr)     .00000     1.6727        357    
+B detaliu apdorojimas.Queue.WaitingTime     .21055     (Insuf)    .00000     .86034        101    
+C detaliu apdorojimas.Queue.WaitingTime     .33302     (Insuf)    .00000     1.1486        116    
+Perdirbimo procesas.Queue.WaitingTime       .29924     (Insuf)    .00000     1.5261         31    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+B detaliu isbuvimas                         1.8918     (Insuf)    .00000     12.000     4.0000    
+Eile prie testuotojo                        19.298     (Corr)     .00000     43.000     42.000    
+A detaliu isbuvimas                         2.5949     (Corr)     .00000     8.0000     6.0000    
+B detale.WIP                                6.9667     (Insuf)    .00000     20.000     20.000    
+C detale.WIP                                9.7588     (Insuf)    .00000     29.000     11.000    
+A detale.WIP                                12.327     (Corr)     .00000     29.000     23.000    
+Perdirbejas.NumberBusy                      .76227     (Insuf)    .00000     2.0000     1.0000    
+Perdirbejas.NumberScheduled                 1.5000     (Insuf)    1.0000     2.0000     1.0000    
+Perdirbejas.Utilization                     .54074     (Insuf)    .00000     1.0000     1.0000    
+A irenginys.NumberBusy                      .80799     (Insuf)    .00000     1.0000     1.0000    
+A irenginys.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+A irenginys.Utilization                     .80799     (Insuf)    .00000     1.0000     1.0000    
+Testuotojas.NumberBusy                      .91982     (Insuf)    .00000     1.0000     1.0000    
+Testuotojas.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Testuotojas.Utilization                     .91982     (Insuf)    .00000     1.0000     1.0000    
+C irenginys.NumberBusy                      .59138     (Insuf)    .00000     1.0000     .00000    
+C irenginys.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+C irenginys.Utilization                     .59138     (Insuf)    .00000     1.0000     .00000    
+B irenginys.NumberBusy                      .51643     (Insuf)    .00000     1.0000     1.0000    
+B irenginys.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+B irenginys.Utilization                     .51643     (Insuf)    .00000     1.0000     1.0000    
+A detaliu apdorojimas.Queue.NumberInQueue   1.7869     (Insuf)    .00000     7.0000     5.0000    
+Testavimo procesas.Queue.NumberInQueue      19.298     (Corr)     .00000     43.000     42.000    
+B detaliu apdorojimas.Queue.NumberInQueue   1.3754     (Insuf)    .00000     11.000     3.0000    
+C detaliu apdorojimas.Queue.NumberInQueue   2.4143     (Insuf)    .00000     15.000     .00000    
+Perdirbimo procesas.Queue.NumberInQueue     .57977     (Insuf)    .00000     6.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+B detale.NumberIn                           104.00    
+B detale.NumberOut                          84.000    
+C detale.NumberIn                           116.00    
+C detale.NumberOut                          105.00    
+A detale.NumberIn                           189.00    
+A detale.NumberOut                          166.00    
+Perdirbejas.NumberSeized                    31.000    
+Perdirbejas.ScheduledUtilization            .50818    
+A irenginys.NumberSeized                    184.00    
+A irenginys.ScheduledUtilization            .80799    
+Testuotojas.NumberSeized                    357.00    
+Testuotojas.ScheduledUtilization            .91982    
+C irenginys.NumberSeized                    116.00    
+C irenginys.ScheduledUtilization            .59138    
+B irenginys.NumberSeized                    101.00    
+B irenginys.ScheduledUtilization            .51643    
+System.NumberOut                            355.00    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.

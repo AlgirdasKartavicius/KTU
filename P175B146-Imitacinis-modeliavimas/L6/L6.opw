@@ -1,0 +1,19 @@
+[RESOURCES]
+[VARIABLES]
+Desinys batas.NumberOut
+Klientai su batais.NumberOut
+Batu atskyrimas pagal puses.NumberOut False
+Ar klientui batai tiko?.NumberOut True
+Ar klientas daugiau nebepirks batu poru?.NumberOut True
+Deziu iskrovimas.NumberOut Orig
+Klientu atvykimas.NumberOut
+Ar yra batu?.NumberOut True
+Ar klientas daugiau nebepirks batu poru?.NumberOut False
+Batu pora kaip vienas objektas.NumberOut
+Ar yra batu?.NumberOut False
+Ar klientui batai tiko?.NumberOut False
+Krovinio dydis.NumberOut
+Batu atskyrimas pagal puses.NumberOut True
+Kairys batas.NumberOut
+Klientai be batu.NumberOut
+Objektu naikinimas.NumberOut

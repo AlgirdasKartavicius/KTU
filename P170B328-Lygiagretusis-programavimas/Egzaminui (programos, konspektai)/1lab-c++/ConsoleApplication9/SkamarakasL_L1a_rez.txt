@@ -1,0 +1,115 @@
+********   Informatikos    ********
+     Vardas   Kursas   Vidurkis   
+  1) Sonata     3         9.13     
+  2) Sonata     3         9.13     
+  3) Mykolas    1         6.95     
+  4) Aldona     3         9.13     
+  5) Asta       2         7.01     
+  6) Viktoras   2         8.65     
+  7) Arturas    5         8.32     
+  8) Antanas    1         6.95     
+  9) Kazys      2         8.65     
+ 10) Petras     2         7.01     
+ 11) Sonata     3         9.13     
+ 12) Sonata     3         9.13     
+ 13) Jonas      1         6.95     
+ 14) Martynas   3         9.13     
+ 15) Arturas    2         7.01     
+ 16) Vacys      2         8.65     
+ 17) Robertas   3         6.43     
+ 18) Sonata     3         9.13     
+ 19) Sonata     3         9.13     
+ 20) Mykolas    1         6.95     
+ 21) Aldona     3         9.13     
+ 22) Asta       2         7.01     
+ 23) Viktoras   2         8.65     
+ 24) Arturas    5         8.32     
+ 25) Antanas    1         6.95     
+ 26) Kazys      2         8.65     
+ 27) Petras     2         7.01     
+ 28) Sonata     3         9.13     
+********     Ekonomikos    ********
+     Vardas   Kursas   Vidurkis   
+  1) Sonata     3         9.13     
+  2) Jonas      1         6.95     
+  3) Martynas   3         9.13     
+  4) Arturas    2         7.01     
+  5) Vacys      2         8.65     
+  6) Robertas   3         6.43     
+********     Mechanikos    ********
+     Vardas   Kursas   Vidurkis   
+  1) Sonata     3         9.13     
+  2) Sonata     3         9.13     
+  3) Mykolas    1         6.95     
+  4) Aldona     3         9.13     
+  5) Asta       2         7.01     
+  6) Viktoras   2         8.65     
+  7) Arturas    5         8.32     
+  8) Vytas      3         7.85     
+********       Statybos    ********
+     Vardas   Kursas   Vidurkis   
+  1) Sonata     3         9.13     
+  2) Sonata     3         9.13     
+  3) Sonata     3         9.13     
+  4) Sonata     3         9.13     
+  5) Sonata     3         9.13     
+  6) Sonata     3         9.13     
+  7) Jonas      1         6.95     
+  8) Zigmas     3         9.13     
+  9) Arturas    2         7.01     
+ 10) Simas      3         6.43     
+-----------------------------------------------------------------------------------------------
+Gijos pavadinimas     Elemento nr     Studento vardas     Studento kursas     Studento vidurkis
+-----------------------------------------------------------------------------------------------
+gija_3                0               Sonata              3                   9.13     
+gija_1                1               Sonata              3                   9.13     
+gija_4                2               Sonata              3                   9.13     
+gija_2                3               Jonas               1                   6.95     
+gija_1                4               Mykolas             1                   6.95     
+gija_2                5               Martynas            3                   9.13     
+gija_3                6               Sonata              3                   9.13     
+gija_4                7               Sonata              3                   9.13     
+gija_2                8               Arturas             2                   7.01     
+gija_1                9               Aldona              3                   9.13     
+gija_3                10              Mykolas             1                   6.95     
+gija_2                11              Vacys               2                   8.65     
+gija_4                12              Sonata              3                   9.13     
+gija_1                13              Asta                2                   7.01     
+gija_3                14              Aldona              3                   9.13     
+gija_2                15              Robertas            3                   6.43     
+gija_3                16              Asta                2                   7.01     
+gija_4                17              Sonata              3                   9.13     
+gija_1                18              Viktoras            2                   8.65     
+gija_4                19              Sonata              3                   9.13     
+                      0                                   0                   0        
+gija_3                21              Viktoras            2                   8.65     
+gija_1                22              Arturas             5                   8.32     
+gija_4                23              Jonas               1                   6.95     
+gija_4                24              Zigmas              3                   9.13     
+gija_1                25              Antanas             1                   6.95     
+gija_3                26              Arturas             5                   8.32     
+gija_4                27              Arturas             2                   7.01     
+gija_1                28              Kazys               2                   8.65     
+gija_4                29              Simas               3                   6.43     
+gija_3                30              Vytas               3                   7.85     
+                      0                                   0                   0        
+                      0                                   0                   0        
+gija_1                33              Petras              2                   7.01     
+gija_1                34              Sonata              3                   9.13     
+gija_1                35              Sonata              3                   9.13     
+gija_1                36              Jonas               1                   6.95     
+gija_1                37              Martynas            3                   9.13     
+gija_1                38              Arturas             2                   7.01     
+gija_1                39              Vacys               2                   8.65     
+gija_1                40              Robertas            3                   6.43     
+gija_1                41              Sonata              3                   9.13     
+gija_1                42              Sonata              3                   9.13     
+gija_1                43              Mykolas             1                   6.95     
+gija_1                44              Aldona              3                   9.13     
+gija_1                45              Asta                2                   7.01     
+gija_1                46              Viktoras            2                   8.65     
+gija_1                47              Arturas             5                   8.32     
+gija_1                48              Antanas             1                   6.95     
+gija_1                49              Kazys               2                   8.65     
+gija_1                50              Petras              2                   7.01     
+gija_1                51              Sonata              3                   9.13     

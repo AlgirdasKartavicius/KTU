@@ -1,0 +1,41 @@
+[RESOURCES]
+zona_1
+zona_2
+zona_3
+Sv_1
+Sv_2
+Sv_3
+[VARIABLES]
+1 sviesoforo signalai.NumberOut
+3 sr pagal krypti toliau.NumberOut False
+Ar yra 1 srauto eile degant zaliam?.NumberOut False
+1 sr pagal krypti.NumberOut True
+2 sviesoforo signalai.NumberOut
+3 sr pagal krypti.NumberOut False
+3 sr naikinimas 31 kryptyje.NumberOut
+3 sviesoforo signalai.NumberOut
+1 sviesoforo signalu naikinimas.NumberOut
+1 sr pagal krypti.NumberOut False
+1 sr naikinimas 13 kryptyje.NumberOut
+1 srauto generavimas.NumberOut
+Ar yra 2 srauto eile degant zaliam?.NumberOut False
+2 sr pagal krypti.NumberOut True
+Ar yra 2 srauto eile degant zaliam?.NumberOut True
+2 sr pagal krypti toliau.NumberOut False
+2 sr naikinimas 23 kryptyje.NumberOut
+3 sr pagal krypti toliau.NumberOut True
+3 srauto generavimas.NumberOut
+1 sr naikinimas 12 kryptyje.NumberOut
+Ar yra 3 srauto eile degant zaliam?.NumberOut False
+3 sr pagal krypti.NumberOut True
+2 sr pagal krypti toliau.NumberOut True
+2 sr pagal krypti.NumberOut False
+Ar yra 1 srauto eile degant zaliam?.NumberOut True
+3 sviesoforo signalu naikinimas.NumberOut
+1 sr pagal krypti toliau.NumberOut False
+1 sr pagal krypti toliau.NumberOut True
+2 srauto generavimas.NumberOut
+3 sr naikinimas 32 kryptyje.NumberOut
+2 sviesoforo signalu naikinimas.NumberOut
+2 sr naikinimas 21 kryptyje.NumberOut
+Ar yra 3 srauto eile degant zaliam?.NumberOut True

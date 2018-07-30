@@ -1,0 +1,67 @@
+
+                                      ARENA Simulation Results
+                          mangirdas.kazlauskas@inbox.lt - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/19/2017
+Analyst: mangirdas.kazlauskas@inbox.lt                               Model revision date:12/19/2017
+
+Replication ended at time      : 1.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+masina.VATime                               .02872     (Insuf)    .02785     .02927          3    
+masina.NVATime                              .00000     (Insuf)    .00000     .00000          3    
+masina.WaitTime                             .00000     (Insuf)    .00000     .00000          3    
+masina.TranTime                             .00833     (Insuf)    .00833     .00833          3    
+masina.OtherTime                            .00000     (Insuf)    .00000     .00000          3    
+masina.TotalTime                            .03705     (Insuf)    .03618     .03760          3    
+Cisterna.VATime                             .10167     (Insuf)    .10167     .10167          1    
+Cisterna.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Cisterna.WaitTime                           .00000     (Insuf)    .00000     .00000          1    
+Cisterna.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Cisterna.OtherTime                          .00000     (Insuf)    .00000     .00000          1    
+Cisterna.TotalTime                          .10167     (Insuf)    .10167     .10167          1    
+Atsukti ciaupa kolonelems.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000          3    
+Atidaryti rezervuaro sklende.Queue.Waiting  .00000     (Insuf)    .00000     .00000          1    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+masina.WIP                                  .11116     (Insuf)    .00000     3.0000     .00000    
+Cisterna.WIP                                .10167     (Insuf)    .00000     1.0000     .00000    
+Atsukti ciaupa kolonelems.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Atidaryti rezervuaro sklende.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Isimtos is eiles be degalu                        0  Infinite
+Statistika apie isvaziavusios masinas be d        0  Infinite
+Atvyko cisterna                                   1  Infinite
+Viso ipiltu degalu suma                         135  Infinite
+Statistika apie isvaziavusias masinas             3  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+masina.NumberIn                             3.0000    
+masina.NumberOut                            3.0000    
+Cisterna.NumberIn                           1.0000    
+Cisterna.NumberOut                          1.0000    
+System.NumberOut                            4.0000    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

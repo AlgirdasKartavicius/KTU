@@ -1,0 +1,111 @@
+Informatikos 5
+Sonata 3 9.13
+Sonata 3 9.13
+Mykolas 1 6.95
+Aldona 3 9.13
+Asta 2 7.01
+Matematikos 10
+Viktoras 2 8.65
+Arturas 5 8.32
+Antanas 1 6.95
+Kazys 2 8.65
+Petras 2 7.01
+Sonata 3 9.13
+Sonata 3 9.13
+Jonas 1 6.95
+Martynas 3 9.13
+Arturas 2 7.01
+Fizikos 12
+Vacys 2 8.65
+Robertas 3 6.43
+Sonata 3 9.13
+Sonata 3 9.13
+Mykolas 1 6.95
+Aldona 3 9.13
+Asta 2 7.01
+Viktoras 2 8.65
+Arturas 5 8.32
+Antanas 1 6.95
+Kazys 2 8.65
+Petras 2 7.01
+Mechanikos 13
+Sonata 3 9.13
+Sonata 3 9.13
+Jonas 1 6.95
+Martynas 3 9.13
+Sonata 3 9.13
+Sonata 3 9.13
+Mykolas 1 6.95
+Aldona 3 9.13
+Asta 2 7.01
+Viktoras 2 8.65
+Arturas 5 8.32
+Vytas 3 7.85
+Asta 2 7.01
+Statybos 14
+Arturas 2 7.01
+Vacys 2 8.65
+Robertas 3 6.43
+Sonata 3 9.13
+Sonata 3 9.13
+Robertas 3 6.43
+Sonata 3 9.13
+Sonata 3 9.13
+Sonata 3 9.13
+Sonata 3 9.13
+Jonas 1 6.95
+Zigmas 3 9.13
+Arturas 2 7.01
+Simas 3 6.43
+------------- 0
+Vardai 4
+1Sonata 1
+1Mykolas 1
+1Aldona 1
+1Asta 1
+Vardai 9
+1Viktoras 1
+1Arturas 1
+1Antanas 1
+1Kazys 1
+1Petras 1
+1Sonata 1
+1Jonas 1
+1Martynas 1
+1Arturas 1
+Vardai 10
+1Jonas 1
+1Martynas 1
+1Sonata 1
+1Mykolas 1
+1Aldona 1
+1Asta 1
+1Viktoras 1
+1Arturas 1
+1Vytas 1
+1Asta 1
+Vardai 11
+1Vacys 1
+1Robertas 1
+1Sonata 1
+1Mykolas 1
+1Aldona 1
+1Asta 1
+1Viktoras 1
+1Arturas 1
+1Antanas 1
+1Kazys 1
+1Petras 1
+Vardai 12
+1Arturas 1
+1Vacys 1
+1Robertas 1
+1Sonata 1
+1Robertas 1
+1Jonas 1
+1Zigmas 1
+1Arturas 1
+1Simas 1
+1Mykolas 1
+1Aldona 1
+1Asta 1

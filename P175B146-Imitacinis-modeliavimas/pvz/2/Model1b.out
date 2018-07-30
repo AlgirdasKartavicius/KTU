@@ -1,0 +1,86 @@
+SIMAN Run Controller.
+
+12.0 Seconds>
+                                      ARENA Simulation Results
+                          mangirdas.kazlauskas@inbox.lt - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/19/2017
+Analyst: AgneP                                                       Model revision date:12/19/2017
+
+Replication ended at time      : 12.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+klientas.VATime                             2.0000     (Insuf)    2.0000     2.0000          4    
+klientas.NVATime                            .00000     (Insuf)    .00000     .00000          4    
+klientas.WaitTime                           1.0000     (Insuf)    .00000     2.0000          4    
+klientas.TranTime                           .00000     (Insuf)    .00000     .00000          4    
+klientas.OtherTime                          .00000     (Insuf)    .00000     .00000          4    
+klientas.TotalTime                          3.0000     (Insuf)    2.0000     4.0000          4    
+klientas1.VATime                                --         --         --         --          0
+klientas1.NVATime                               --         --         --         --          0
+klientas1.WaitTime                              --         --         --         --          0
+klientas1.TranTime                              --         --         --         --          0
+klientas1.OtherTime                             --         --         --         --          0
+klientas1.TotalTime                             --         --         --         --          0
+klientas2.VATime                            2.0000     (Insuf)    2.0000     2.0000          5    
+klientas2.NVATime                           .00000     (Insuf)    .00000     .00000          5    
+klientas2.WaitTime                          2.0000     (Insuf)    .00000     4.0000          5    
+klientas2.TranTime                          .00000     (Insuf)    .00000     .00000          5    
+klientas2.OtherTime                         .00000     (Insuf)    .00000     .00000          5    
+klientas2.TotalTime                         4.0000     (Insuf)    2.0000     6.0000          5    
+Aptarnavimas2.Queue.WaitingTime             2.5000     (Insuf)    .00000     5.0000          6    
+Aptarnavimas.Queue.WaitingTime              1.4000     (Insuf)    .00000     3.0000          5    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+klientas.WIP                                2.9166     (Insuf)    .00000     6.0000     6.0000    
+klientas1.WIP                               3.0000     (Insuf)    .00000     6.0000     6.0000    
+klientas2.WIP                               2.7500     (Insuf)    .00000     4.0000     2.0000    
+Kasininke.NumberBusy                        1.0000     (Insuf)    .00000     1.0000     1.0000    
+Kasininke.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kasininke.Utilization                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Kasininkas.NumberBusy                       .83333     (Insuf)    .00000     1.0000     1.0000    
+Kasininkas.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kasininkas.Utilization                      .83333     (Insuf)    .00000     1.0000     1.0000    
+Aptarnavimas2.Queue.NumberInQueue           4.7500     (Insuf)    .00000     7.0000     7.0000    
+Aptarnavimas.Queue.NumberInQueue            2.0833     (Insuf)    .00000     5.0000     5.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+klientas.NumberIn                           10.000    
+klientas.NumberOut                          4.0000    
+klientas1.NumberIn                          6.0000    
+klientas1.NumberOut                         .00000    
+klientas2.NumberIn                          7.0000    
+klientas2.NumberOut                         5.0000    
+Kasininke.NumberSeized                      6.0000    
+Kasininke.ScheduledUtilization              1.0000    
+Kasininkas.NumberSeized                     5.0000    
+Kasininkas.ScheduledUtilization             .83333    
+System.NumberOut                            9.0000    
+
+
+Simulation run time: 0.17 minutes.
+Simulation run complete.

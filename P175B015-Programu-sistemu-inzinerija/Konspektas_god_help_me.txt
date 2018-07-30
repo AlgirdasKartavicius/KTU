@@ -1,0 +1,382 @@
+-------------------------------------
+Programavimo inþinerijos pradmenys:
+-------------------------------------
+Kursas, kuriame pateikiama daug naujø þiniø apie organizacinius ir þmogiðkuosius dideliø programø sistemø kûrimo
+aspektus, kalbama apie principus, idëjas, metodus, kurie turi iðliekamàjà vertæ. 
+PÁ susideda ið sukurtø programø ir dokumentacijos. Atributai: tinkamumas eksploatavimui, pasikliautinumas, 
+efektyvumas ir tinkamumas vartotojui. 
+Swebok tyrimas - ACM ir IEEE iðkëlë uþdaviná iðvardinti þinias, kuriø reikia profesionaliems programuotojams.
+Vis daugiau priklauso nuo programinës árangos, sistemø valdo pá.
+Programavimo inþinerija apima teorijà, metodus ir priemones profesionaliam pá kûrimui.
+Pá sudaro didþiàjà sistemos kainos dalá, eksploatavimas > kûrimas. Tikslas - pá uþ kuo maþesnæ kainà.
+PÁ sukurta vartotojø, nesusineðioja, bet blogëja, projektuojama (ne gaminama), produktas ir priemonë informacijai.
+PÁ sudaro programos, dokumentacija ir duomenys, kuria programuotojai.
+Krizë: klaidos geriau þinomos nei sëkmës atvejai, sumaþino nesëkmes - krizë neávyko.
+Problemos ne dël tinkamos pá kûrimo, palaikymo, bet dël gavimo, kuri funkcionuoja korektiðkai.
+Mitai: puikûs pá kûrimo standartai ir automatizavimo priemonës, dokumentacija kuriama noriai, programuotojo darbas
+baigiasi ties programos paraðymu, darbai paspartinami pritraukus daugiau programuotojø.
+--
+Pá produktai: bendri - sukurti, parduoti eilei skirtingø vartotojø, uþsakyti - sukurti vienam pirkëjui pagal já
+PÁ inþinerija - inþinerijos ðaka, apimanti pá árangos gamybos aspektus; turi bûti taikomas sisteminis,
+organizuotas poþiûris á darbà, tinkamos priemonës, metodai nuo keliamø apribojimø, turimø resursø.
+Kompiuteriø mokslas - teorija ir pagrindai, prog. inþinerija - praktinë pá kûrimo ir naudojimo pusë.
+Sistemø inþinerija apima visus komp. sistemø kûrimo aspektus, áskaitant aparatûrinës árangos, pá ir proceso inþ.
+Programavimo inþinerija - ðio proceso dalis. Inþineriai: sistemø specifikacijos, architektûrinis projektavimas,
+integravimas ir plëtojimas.
+Kûrimo procesas - aibë veiksmø kurti ir priþiûrëti pá: specifikacija, kûrimas, atestavimas, tobulinimas.
+Kûrimo proceso modelis - proceso pristatymas, daromas ið tam tikros perspektyvos: darbø srautas, 
+duomenø srautas, rolës/veiksmo eiga. Bendri modeliai: krioklio, nuolatinio vystymo, formali transf., sistemos 
+surinkimas ið daugkartinio naudojimo elementø.
+Kaðtai: 60% kûrimas, 40% testavimas, prieþiûra virðija kûrimà, priklauso nuo modelio
+Inþinerijos metodai - strûktûrinis poþiûris á pá kûrimà, á kurá áeina sistemos modeliai, þymëjimai, taisyklës,
+projektavimo patarimai, vadovavimas procesui: modeliø apibrëþimas, taisyklës, rekomendacijos, vadovavimas procesui.
+CASE - pá sistemos, kuriø paskirtis automatizuoti pá kûrimo procesà. Ankstyvoji (reikalavimai ir projektavimas), 
+vëlyvoji(programavimui, derinimui, testavimui, programø prieþiûrai).
+PÁ atributai: tinkamumas prieþiûrai, pasikliautinumas, efektyvumas, tinkamumas vartotojams.
+Esminës problemos inþinerijoje: pasenusios sistemos, heterogeniðkumas (ávairovë), sistemø kûrimo laikas
+PÁ darbø uþbaigimas uþtrunka dël kûrimo priemoniø neveikimo, uþsakovo nauji reikalavimai, valstybinis reguliavimas,
+suderinimas su kitomis sistemomis reikalauja daugiau pastangø, rizikos valdymas reikalauja daugiau laiko.
+--
+Programavimo inþineriai privalo elgtis garbingai ir etiðkai, jei nori bûti gerbiami kaip profesionalai,
+etika - ne vien taisykliø paisymas.
+Profesinës atsakomybës aspektai: konfidencialuas, kompetencija, intelektualinës nuosavybës teisës, 
+piktnaudþiavimas kompiuteriais
+Profesinës bendruomenës JAV bendradarbiauja kuriant etikos kodeksà, nariai ástodami já pasiraðo, kurá sudaro
+aðtuoni principai susijæ su elgesiu ir sprendimai ðiø þmoniø: profesionaliø pá inþinieriø, praktikø, mokytojø, 
+vadybininkø, priþiûrëtojø ir draudëjø, ðios profesijos praktikantø ir studentø.
+Kodekse pateikti pavyzdþiai, kai siekiai pakeièia mûsø, kaip inþinerijos profesionalø veiksmus.
+Be troðkimø smulkemnos gali tapti varginanèios, be detaliø, troðkimai gali tapti tuðèiaþodþiavimu, kartu 
+troðkimai ir detalës formuoja kodekso visumà. Inþinieriai ásipareigoja vykdyti pá analizæ, specifikavimà, 
+projektavimà, kûrimà, testavimà ir eksplotavimà.
+Principai: visuomenës, klientas ir uþsakovas, produktas, sprendimai, valdymas, profesija, bendradarbiai, saviugda
+Etikos dilemos: principiniai nesutarimai su vadovybës politika, darbuotojas elgiasi neetiðkai (kritinës sistemos),
+dalyvimas kuriant karines ginklø ar branduolines sistemas.
+--
+Sistema - tikslingas tarpusavyje susietø komponentø rinkinys, kurie veikia kartu, kad pasiektø bendrà tikslà.
+Þmogus gali bûti sistemos elementu.
+Kategorijos: techninës kompiuterinës, socio-techninës.
+Socio-tech. charakteristikos - pasireiðkianèios savybës, nedeterministiðkumas, sudëtingas ryðys su organizaciniais
+tikslais.
+Problemos: turi bûti suprojektuotos dirbti daug metø, spræstu nei karto nespræstas problemas.
+Sistemø inþinerijoje pá sukelia daugiausia problemø (vëluoja projektai)
+Poþiûris: ne vien programinë pusë, prieð akcentuojant pá, reikia aptarti visus sistemos elementus, prasideda nuo 
+plataus poþiûrio ir siaurëja, kol tampa suprantama. Kompleksinës sistemos sudarytos ið mikro-elementø, kurie taip
+pat yra sistemos.
+Modeliavimas: proceso, pagal kurá formuojamas sistemos suvokimas, apibrëþimas.
+Liktinës sistemos: sistemos, suprojektuotos specialiai organizacijai seniai, kurios vis dar naudojamos.
+Jø keitimas naujomis - sudëtingas, rizikingas, problemos dël dokumentacijos.
+Jø modifikavimas: privalo keistis, kad iðliktø naudingos, taèiau brangu: nëra nuosekliai programuojama, pasenusi
+programavimo kalba, sena dokumentacija, sugadinta struktûra.
+---------------------------------------------------------------
+Kûrimo procesas
+---------------------------------------------------------------
+Krioklio fazës: reikalavimø analizë ir ávardinimas, sistemos ir pá projektavimas, realizavimas ir komponentø 
+testavimas, apjungimas ir sistemos testavimas, naudojimas ir palaikymas.
+Problemos: nelankstus, skaidomas á grieþtas stadijas, reikalavimai turi bûti aiðkiai suprantami.
+Evoliucinis: tiriamasis kûrimas - tikslas: dirbti su uþsakovu nuo pradþios iki galutinës sistemos.
+Iðmetamasis maketavimas - suprasti sistemos reikalavimus, pradëti nuo neaiðkiø reikalavimø.
+Bendras apibrëþimas -> lygiagreèiai vyksta specifikacija, kûrimas, atestavimas, tada siûlomos versijos.
+Problemos: neskaidrus, daþnai sistemos maþai struktûrizuotos, gali bûti reikalingi specialûs ágûdþiai.
+Tinka: maþoms, vidutinëms sistemoms, dideliø sistemø dalims, trumpaamþëms sistemoms.
+Formalus sistemø kûrimas: turimas matematinis modelis, kuris transformuojamas á realizuojamà programà. 
+Transformacija iðsaugo teisingumà, svarbu parodyti, kad programa atitinka specifikacijà.
+Reikalavimø nustatymas -> formalios specifikacijos -> formalus transformavimas -> integravimas ir sistemos test.
+Problemos: reikalingos spec. þinios, sudëtinga formaliai apraðyti kai kuriuos sistemos aspektus.
+Tinka: kritinëms sistemoms, reikalaujanèioms saugos ir apsaugos
+Kûrimas pagrástas pakartotiniu panaudojimu: komponentø analizë, reikalavimø modifikavimas, sistemos projektavimas
+su pakartotiniø panaudojimu, kûrimas ir ádiegimas.
+Kaðtai: specifikavimas, kûrimas/projektavimas, testavimas
+--
+Proceso iteracijos: reikalavimai visada kinta proceso metu, susijæ modeliai: paþingsninis kûrimas, spiralinis
+Paþings.: sistemos pristatymas skaidomas á kelis þingsnius, kiekvienà kartà pateikiant dalá funkcionalumo,
+vartotojø reikalavimø prioritetai.
+Privalumai: vartotojui gali bûti naudingas kiekvienas uþbaigtas þingsnis ir taip sistemos funkcijos prieinamos
+anskèiau, atskiras dalis galima gauti reikalavimus kitiems, maþesnë projekto nepavykimo rizika, testavimas.
+XP: labai maþø funkcionuojanèiø daliø ágyvendinimas, remiasi nuolatiniu kodo gerinimu,vartotojo átraukimu,
+poriniu programavimu.
+Spiralinis: kiekvienas spiralës ciklas yra proceso fazë, nëra fiksuotø - ciklai pasirenkami pagal poreiká, 
+rizika yra aiðkiai ávertinama ir maþinama proceso metu.
+Sektoriai: tikslo nustatymas, rizikos vertinimas ir maþinimas, kûrimas ir atestavimas, planavimas.
+--
+PÁ specifikavimas: reikalingø paslaugø ir apribojimø nustatymas sistemos naudojimui bei kûrimui.
+Reikalavimø inþ: galymybiø nagrinëjimas, reikalavimø rinkimas ir analizë, reik. specifikavimas, reik. atestavimas
+--
+PÁ projektavimas ir realizacija: specifikacija keièiama á veikianèià sistemà, pá, realizuojanèios spec., projekt.
+Realizavimas - paverèia struktûrà á vykdomà programà.
+Veiksmai: arch. projektavimas, abstraktus specifikavimas, vartotojo sàsajos projekt., komponentø projekt., 
+duomenø struktûros projekt., algoritmø projekt.
+Projektavimo metodai: sistemingi bûdai pá projektuoti, daþnai dokumentuojamas aibe grafiniø modeliø.
+Galimi duomenø srautø modeliai: duomenø srautas, esybiø-santykio-atributø, struktûrinis, objektinis
+--
+Programavimas ir derinimas: projekto realizavimas programa ir klaidø ðalinimas, dalis klaidø iðtaisoma derinime
+--
+Atestavimas: parodo, kad sistema atitinka specifikacijà ir uþsakovo reikalavimus, susideda ið tikrinimo bei 
+prieþiûros procesø ir sistemos testavimo.
+Etapai: komponentø testavimas, moduliø testavimas, posistemës testavimas, sistemos testavimas, tinkamumo testavimas
+--
+Tobulinimas: bûdingas lankstumas ir galimybë keistis, keièiasi reikalavimai, todël pá palaikanti verslà irgi turi
+keistis.
+--
+CASE: pá, palaikanti programø kûrimo ir vystymo procesus.
+Automatizavimas: grafiniai redaktoriai sistemø modeliø vystymui, duomenø þodynas projektavimo komponentø valdymui,
+grafinis vartotojo sàsajos konstruktorius, derintojai skirti klaidos suradimui, automatiniai transliatoriai, 
+generuojantys naujas programø versijas.
+Klasifikacija: funkcinë perspektyva, proceso perspektyva, suderinimo perspektyva.
+Apjungimas: priemonës (tools), paketai (workbench), aplinkos
+-------------------------------------------------------
+Lankstus kûrimas (Agile)
+-------------------------------------------------------
+Greitas kûrimas ir pateikimas yra labai svarbus reikalavimas (greitai keièiasi verslo aplinka, nëra stabiliø 
+reikalavimø, reikai greitai keisti programas)
+Poþymiai: specifikavimo, projektavimo ir ágyvendinimo sluoksniavimas, sistemos - versijø eilë, sàsajos kuriamos
+naudojant integruotà kûrimo aplinkà ir grafiniø árankiø aibæ.
+Lankstûs metodai: labiau orientuojasi á programos kodà nei projektavimà, iteratyvûs, greitai pateikia veikianèias 
+programas, kurios yra tobulinamos
+Tikslai: sumaþinti pá pridëtines iðlaidas, be dideliø perdirbimø iðpildyti pasikeitusius reikalavimus.
+Manifestas: individai ir bendravimas svarbiau nei procesai ir árankiai, veikianti pá svarbiau nei dokumentacija,
+bendravimas su uþsakovu svarbiau nei derybos dël kontrakto, pakeitimø iðpildymas svarbiau uþ jø planavimà
+Principai: uþsakovo átraukimas, laipsniðkas pateikimas, þmonës ne procesas, keitimø numatymas, iðlaikyti paprastumà
+Taikomumas: maþos ir vidutinës apimties produktai, pá organizacijoms, kuriose uþsakovai ásitrauks á kûrimo procesà,
+gali kilti problemø dideliø sistemø kûrimui (dël maþø, tampriø komandø)
+Problemos: uþsakovo suinteresuotumas, intensyvus darbas, keitimo prioritetø nustatymas, paprastumo palaikymas, 
+kontrakto sudarymas problematiðkas dël iteracijos.
+Prieþûra: gali kilti problemø, jei nebus iðlaikyta kûrimo komanda
+Paremtas planu kûrimas: atskiri etapai, kuriø pabaigoja gaunama produkcija, krioklio, paþingsninis modelis, 
+iteracijos vyksta veiklos viduje; lankstus - specifikacija, projektavimas, ágyvendinimas ir testavimas yra 
+susipynæ ir apie kûrimo proceso rezultatus sprendþiama per derybø procesà kûrimo metu.
+Techniniai, þmogiðkieji, organizaciniai aspektai: detali specifikacija prieð ágyvendinimà (geriau planas),
+ar realus bendradarbiavimas su uþsakovu (taip - lankstus), sistemos dydis (didelë - planas, maþa - lankstus), 
+sistemos tipas (daug analizës ir ágyvendinimo - planas), gyvavimo ciklas (ilgas - daugiau dokumentacijos - planas),
+technologijos (árankiai, skirti sekti projekto plëtimuisi - lankstus), kûrimo komanda (jei kûrimo komanda 
+paskirstyta iðorëje - daugiau dokumentacijos - planas), kvalifikacija (aukðta - lankstûs).
+XP - forsuotas lankstus kûrimas (kelios naujos versijos per dienà, uþsakovui pateikiama kas dvi savaites, 
+visi testai vykdomi kiekvienai versijai, uþsakovo átraukimas - kaip darbuotojo átraukimas pilnu etatu, nenaudojamas
+porinis programavimas, daþni pakeitimai per naujas versijas, paprastumas - per nuolatiná kodo pertvarkymà).
+XP praktika: paþingsninis planavimas, maþos versijos, smulkûs projektai, pirmiausia testavimas, perdarymas
+porinis programavimas, kolektyvinë atsakomybë, nuolatinis integravimas, tvarus tempas, uþsakovas vietoje
+Reikalavimø scenarijai: reikalavimai iðreikðti kaip scenarijai ar naudotojo pasakojimai, uþraðoma ant korteliø ir
+kûrëjø komanda sudalina juos á vykdymo uþduotis.
+XP ir keitimai: nesiûlo numatyti pokyèiø, nes negali bûti patikimai numatyti, todël siûlo pastovø kodo gerinimà,
+siekiant pakeitimus padaryti lengvesnius.
+Perdarymas: ieðkoma galimø pá patobulinimø ir juos atlieka, padidina pá suprantamumà, taip lengviau atlikti pokyèius
+(klasiø hierarchijos perorganizavimas, pervadinti atributus ir metodus, vidinio kodo keitimas su kreipiniais á
+metodus).
+--
+Testavimas XP: pirmiausia testavimas (testai kaip programos), paþingsninis testo kûrimas ið scenarijaus, vartotojø 
+átraukimas (tai, ko reikia uþsakovui), komponentø testai paleidþiami automatiðkai su nauja versija.
+Sunkumai: pirmenybë programavimui, o ne testavimui, kai kuriuos testus sunku raðyti palaipsniui, sunku spræsti apie
+testø iðsamumà.
+--
+Porinis programavimas: daro po du, perþiûri vienas kito kodà, dinamiðkas, dalijimasis þiniomis
+Privalumai: kolektyvinës nuosavybës ir atsakomybës uþ sistemà rëmimas, neformalus perþiûros procesas, pertvarkymø
+rëmimas
+--
+Lankstaus projekto valdymas: pá turi bûti pateikiama laiku ir nevirðijant biudþeto, vadovai rengia planà, kaip viskas
+turi bûti pateikta.
+Scrum: dëmesys skiriamas valdymui aktyviu bendradarbiavimu.
+Etapai: matmenø planavimas (tikslai, pá architektûra), sprinto ciklai (sistemos plëtojimas), projekto apjungimas, 
+dokumentacija.
+Sprintas: 2-4 sav., sàraðas darbø, kurie turi bûti padaryti projekte, atrankos etapas apima visus dirbanèius prie
+projekto, kad pasirinktø funkcijas ir funkcionalumà, kurios turi bûti ágyvendintos per sprintà. Tada komanda 
+organizuojasi kurti pá, komunikacija per scrum meistrà, darbas perþiûrimas sprinto pabaigoje.
+Nauda: produktas suskirstomas á valdomus gabaliukus, nestabilûs reikalavimai nestabdo proceso, visa komanda viskà
+mato, uþsakovas mato laiku pristatomus gabaliukus, atsiranda pasitikëjimas tarp uþsakovø ir kûrëjø.
+--
+Lanksèiø metodø mastelis: pasiteisino dël maþø ir vidutiniø projektø.
+--
+Dideliø sistemø kûrimas: kolekcijos atskirø, bendraujanèiø sistemø, kur atskiros komandos plëtoja kiekvienà sistemà,
+jei kelios sistemos yra integruotos naujos kûrimui, tai didþioji plëtros dalis susijusi su konfigûracija, o ne kodo
+kûrimu, daþnai riboja iðorinës taisyklës, turi ilgus ásigijimo ir kûrimo laikus, sunku iðlaikyti nuoseklià komandà.
+--
+Scaling up - lankstûs metodai naudojami kuriant pá sistemas, kurios negali bûti sukurtos maþø komandø.
+Scaling out - lankstûs metodai gali bûti ádiegti didelëse organizac. su ilgamete pá kûrimo patirtimi.
+Kuriant dideles sistemas neámanoma sutelkti dëmesá tik á sistemos kodà (dokumentacija), turi bûti naudojami 
+kryþminiai bendravimo metodai, nuolatinë integracija, kai visa sistema iðbandoma kiekvienà kartà atlikus pakeitimus
+yra neámanoma.
+Didelës organizacijos daþnai turi savo kokybës procedûras, standartus, todël lanksèius metodus sunku pritaikyti, 
+ne visi yra aukðtos kvalifikacijos, didelis pasiprieðinimas dideliø, tradiciniø sistemø procesø organizacijø.
+-----------------------------------------
+Kritinës sistemos
+-----------------------------------------
+Kritiniø sistemø sutrikimai: aparatûros (galiojimo laikas, projektavimas), pá (specifikacija, implementacija), 
+vykdytojo klaida (daþniausia klaida).
+Kûrimo metodai: formalûs, statinë analizë, iðorinis kokybës uþtikrinimas
+--
+Sistemø pasikliautinumas: vartotojø pasitikëjimo laipsnis (ar dirbs, kaip tikëtasi, ar veiks be klaidø normalaus
+naudojimo metu)
+Pasikliautinumo dimensija: parengtumas (teikti paslaugas pareikalavus), patikimumas (pateikti tokias paslaugas,
+kokios pareikalautos), saugumas (sugebëjimas dirbti be gedimø), apsauga (gebëjimas save apsaugoti nuo iðorës)
+Kaðtai: eksponentinis augimas augant pasikliautinumui (brangesnës technologijos, padidintas testavimas ir 
+atestavimas).
+Ekonomija: geriau nepatikimos sistemos, bet padengti klaidø kaðtus, priklauso nuo sistemos tipo.
+Pasikliautinumas ir naðumas: nepatikimos sistemos atmestos paèiø vartotojø, didelës klaidos kainos, labai sunku
+suderinti, galima didinti pasikliautinumà naðuma sàskaita.
+--
+Patikimumas: sistemos operacijø klaidos tikimybë per nustatytà laikà ir duotà aplinkà.
+Parengtumas: tikimybë, kad sistema tam tikrame laiko taðke bus dirbanti ir galinti pristatyti paslaugà.
+Abu rodikliai kiekybiniai.
+Ámanoma turëti sistemas maþai patikimas, bet tinkamas.
+Patikimumo terminai: sistemos sutrikimas (sistema nesuteikia paslaugø, kuriø tikisi), sistemos klaida (klaidingas
+sistemos elegesys, kai jis nesiderina su sistemos specifikacija), sistemos defektas (nekorektiðkas bûsena,
+kurios nenumatë projektuotojai), operatoriaus suklydimas (þmogaus elgesys, sàlygojantis padarytà ávedimo klaidà).
+Sutrikimai iðtinka dël defektø átakos sistemai (taèiau nebûtinai iððaukia klaidas visada), klaidos ne visada
+sàlygoja sistemos sutrikimus (klaida gali bûti pataisoma naudojant klaidø radimo ir pataisymo mechanizmà).
+Vartotojai labiau dëmesá kreipia á sutrikimus, kurie turi rimtesnes pasekmes nei sukelia nepatogumus.
+Patikimumo skaièiavimas: galima modeliuoti naudojant ávesties-iðvesties aibiø susiejimo operacijas, kur bus 
+iðvedami klaidingi rezultatai. Patikimumas - tikimybë, kad tas áëjimas bus tarp aibës áëjimø, kurie sàlygoja tai.
+Skirtingi þmonës sistemà naudos skirtingose aplinkose, tokia tikimybë nëra statiðkas atributas.
+Bûdai didinti patikimumà: defektø vengimas, defektø radimas ir paðalinimas, defektø toleravimas.
+Defektø átaka patikimumui: defektai gali bûti retai naudojamose kodo dalyse, su kuriais vartotojas gal nesusidurs.
+--
+Sauga: savybë, atspindinti sistemos galimybæ veikti be pavojaus, kuris darytø þalà þmoniø sveikatai ar gyvybei.
+Sauga susijusi su uþtikrinimu, kad sistema negalëtø padaryti þalos, nepriklausomai nuo to, ar ji atitinka specifik.
+Nesaugios patikimos sistemos: jei specifikacija neteisinga, aparatûrinës árangos trûkumai generuoja klaidingus 
+ávedimo signalus, pateikiamos teisingos komandos neteisingu laiku.
+Saugos terminai: incidentas(neplanuotas ávykis ar jø seka, kuriø pasekmës rimtos), pavojinga situacija (sàlygos,
+galinèios sukelti ar prisidëti sukeliant incidentà), þala(nuostoliø dël incidento ávertinimas), pavojingumas(
+su tam tikra pavojinga situacija susijusiø didþiausiø galimø nusotoliø ávertinimas), pavojingos situacijos tikimybë(
+tikimybë, kad atsiras aplinkybes, sukelianèios incidentà), rizika(tikiybës ávertinimas, kad sistema sukels incidentà.
+Saugos didinimas: incidentø vengimas (projektuojama), incidentø aptikimas ir ðalinimas, þalos ribojimas.
+Neiðvengiami aplinkybiø sutapimai: kai sutrikimo kombinacijos sukelia incidentà, neámanoma numatyti kombinacijos.
+--
+Apsauga: savybë apginti save nuo atsitiktiniø ar apgalvotø iðoriniø uþpuolimø.
+Terminai: neapsaugojimas (galimi netekimai ar þala sistemoje), paþeidþiamumas (sistemos silpnumas, kuriuo 
+pasinaudojant galima pakenkti), ataka (sistemos paþeidþiamumo iðnaudojimas), grësmë (aplinkybës, potencialiai 
+galinèios pakenkti ar pridaryti nusotoliø).
+Þala dël apsaugos: paslaugø nutraukimas (neveikia arba kokybë nukenèia), programø ar duomenø sugadinimas, 
+konfidencialios informacijos atskleidimas.
+Bûdai sustiprinti: paþeidþiamumo maþinimas, ásibrovio iðaiðkinimas ir eliminavimas, pasekmiø likvidavimas
+--------------------------------------
+Projekto vadyba
+--------------------------------------
+PÁ projekto valdymas: susijæs su veikla, uþtikrinanèia, jog PÁ pristatoma laiku ir pagal tvarkaraðtá bei iðpildomi
+organizacijø PÁ kûrimo ir tiekimo reikalavimai. Jis reikalingas todël, kad kûrimas priklauso nuo biudþeto ir darbø
+grafiko apribojimø.
+Valdymo iðskirtinumas: neapèiuopiamas, unikaliai lankstus, nepripaþástama kaip inþinerijos disciplina, pá kûrimo
+procesas yra nestandartizuotas, daugelis pá projektø yra vienkartiniai.
+--
+Valdymo veikla: pasiûlymø raðymas, projekto planavimas ir tvarkaraðèio sudarymas, projekto iðlaidø nustatymas, 
+projekto stebëjimas ir perþiûros, personalo atranka ir ávertinimas, ataskaitø raðymas ir pristatymas
+Apribojimai: neámanoma pasirinkti idealius þmones projekto darbams, vadybininkai privalo dirbti prie ðiø apribojimø
+ypaè kai dabar trûksta patyrusiø informaciniø technologijø specialistø.
+--
+Projekto planavimas: uþima daugiausiai laiko, tæstinë veikla nuo koncepcijos iki sistemos pateikimo. Ávairûs 
+skirtingø tipø planai gali bûti sudaromi, kad palaikytø pagrindiná PÁ projekto planà (kokybës, atestavimo,
+pakeitimø vykdymo, prieþiûros, kvalifikacijos këlimo)
+Procesas: nustatyti apribojimus, ávykdyti pradiná projekto parametrø ávertinimà, apibrëþti projekto esminius
+atskaitos taðkus ir pristatymus. Sudaryti grafikà, pradëti darbà pagal já, palaukti, perþvelgti projekto eigà, 
+patikrinti projekto parametrø apskaièiavimus, atnaujinti projekto darbø grafikà, pakartotinai aptarti apribojimus,
+jei iðkyla problemos - pradëti techninæ apþvalgà ir galimus pakeitimus.
+Struktûra: ávadas, organizavimas, rizikos analizë, aparatûrinës ir pá resursø reikalavimai, darbø nutraukimas,
+projekto darbø tvarkaraðtis, stebëjimo ir atsiskaitymo mechanizmai.
+Atskaitos taðkas - proceso veiklos þingsnio pabaiga, pateiktys - vartotojui pateikiami projekto rezultatai
+--
+Tvarkaraðèio sudarymas: padalinti projektà á uþduotis ir apskaièiuoti laikà ir resursus joms, organizuoti lygiagretø
+uþduoèiø vykdymà, kad optimaliai bûtø naudojama darbo jëga, minimizuoti uþduoèiø priklausomybes, kad iðvengtume
+delsimø, priklauso nuo vadybininkø patirties ir intuicijos.
+Problemos: problemø sudëtingumo ir sprendinio gavimo kaðtø apskaièiavimas yra sunkus, produktyvumas nëra 
+proporcingas skaièiui þmoniø, dirbanèiø prie uþduoties, þmoniø papildymas dar labiau suvëlina projektà, atsitinka
+nenumatyti ávykiai.
+Grafiniai þymëjimai naudojami pavaizduoti projekto darbø tvarkaraðèiui, parodo projekto suskirstymà á uþduotis.
+Tinklinis grafikas parodo uþduoèiø priklausomybes ir kritinius kelius, o kalendorinës diagramos - tvarkaraðtá
+--
+Rizikos valdymas: rizikos nustatymas ir kûrimas planø, kurie minimizuotø rizikos poveiká projektui. Rizika - 
+tikimybë, kad atsiras kaþkokios nepalankios aplinkybës (daro átaka tvarkaraðèiui ar resursams, kokybei, naðumui).
+PÁ rizika (personalo patikimumas, vadovavimo pasikeitimas, aparatûros neprieinamumas, dydþio neávertinimas,
+maþas CASE árankiø naðumas, produkto konkurencija ir t.t.).
+Rizikos tipai: projektas, projektas ir produktas, verslas.
+Procesas: rizikos nustatymas, rizikos analizë, rizikos planavimas, rizikos stebëjimas.
+Analizë: ávertinama tikimybë ir kiekvienos rizikos svarba, poveikis gali bûti nuo katastrof. iki nereikðmingo.
+Tikimybës (biudþeto maþinimas, CASE árankiø neámanoma integruoti, pasikeièia reikalavimai, pasikeièia vadovas ir t.t.)
+Planavimas: apsvarstoma kiekviena rizika ir sukuriama strategija, kaip jos iðvengti (vengimas, minimiz., nenumatytø
+aplinkybiø planavimas).
+Stebëjimas: reguliariai vertinti kiekvienà nustatytà rizikà, norint numatyti didëja ji ar maþëja, vertinti jos poveik.
+Rizikos poþymiai: technologinë, þmoniø, organizacinës, árankiø, ávertinimø.
+--------------------------------------------
+Reikalavimai programinei árangai
+--------------------------------------------
+Reikalavimø inþinerija: procesas paslaugø, kuriø vartotojas reikalauja ið sistemos ir apribojimø, pagal kuriuos 
+dirba ir yra kuriama, nustatymui.
+Reikalavimas: nuo abstrakèiø teiginiø iki detalizuotø matematiniø funkcijø. Gali bûti pagrindas pasiûlymui,
+uþsakymo sutarèiai.
+Tipai: vartotojo reikalavimai, sistemos(dokumentas, iðdëstantis detalius sistemos paslaugø apraðymus), programinës 
+árangos (detalus pá apraðymas, kuris tarnauja kaip pagrindas projektavimui ir realizacijai).
+Apibrëþimas (labai bendras reikalavimø apraðymas)
+Specifikacija (detalesnis reikalavimø apraðymas)
+--
+Funkciniai reikalavimai - sistemos paslaugø apraðymai dar turëtø paaiðkinti, kaip sistema turëtø reaguoti á 
+ypatingus duomenø ávedimus ir kaip sistema elgsis ypatingose situacijose.
+Nefunkciniai reikalavaimai - sistemos paslaugø arba funkcijø apribojimai, tokie kaip laiko apribojimai, kûrimo
+proceso apribojimai, standartai ir pan.
+Funkciniai reikalavimai apraðo funkcionalumà arba sistemos paslaugas, priklauso nuo pá tipo, laukiamø vartotojø ir
+sistemos tipo, kur pá yra naudojama, tai gali bûti aukðto lygio teiginiai apie tai, kà sistema turi daryti, bet 
+funkciniai sistemos reikalavimai turi detaliai apraðyti sistemos paslaugas, pvz., vartotojas turi galimybæ ieðkoti
+arba visus pradinius duombazës rinkinius, arba iðsirinkti poaibá ið jø, sistema turi aprûpinti vartotojà tinkamomis 
+perþiûros priemonëmis, kad jie galëtø skaityti ið saugyklos.
+Nevienareikðmiðki reikalavimai gali bûti skirtingai interpretuojami kûrëjo ir vartotojo.
+Pilni reikalavimai (turi bûti visi apraðymai apie visas reikalaujamas galimybes), suderinti (neturëtø bûti konfliktø
+ir prieðtaravimø sistemos galimybiø apraðymuose).
+Nefunkciniai reikalavimai skirti apibrëþti sistemos savybes ir apribojimus, kaip pvz., patikimumà, atsakymo laikà
+ir reikalavimus atminèiai. Reikalavimai procesui gali bûti specifikuoti naudojant CASE sistemà, programavimo kalbà
+ar projektavimo metodà.
+Klasifikavimas: reikalavimai produktui (vykdymo greitis), organizaciniai(ádiegimas), iðoriniai(sistemos suderinam.)
+Tikslas - pagrindiniai vartotojo ketinimai tokie kaip vartojimo lengvumas, naudingi kûrëjams, nes perduoda sistemos
+vartotojø ketinimus.
+Reikalavimø matavimai: greitis, dydis, naudojimo lengvumas, patikimumas, patvarumas, perneðamumas
+Reikalavimø sàveika: konfliktai tarp skirtingø nefunkciniø reikalavimø yra bendri sudëtingose sistemose.
+Kosminio laivo sistema: minimi. apimtá, atskirø mikroschemø skaièius turi minimiz., minimizuojant galios suvartojimà
+turi bûti panaudotos maþesnës galios mikroschemos.
+Srities reikalavimai: gauti ið taikymo srities ir nusako sistemos charakteristikas ir sritá atspindinèius bruoþus.
+Jei ðie reikalavimai nepatenkinami, sistema nedirbs.
+Problemos: suprantamumas (iðreikðti taikymo srities kalboje, daþnai nesupranta projektuotojai projektuojant schemà),
+neabejotinumas(srities specialistai situacijose gaudosi taip gerai, kad jie në negalvoja apie tikslø sirites 
+reikalavimø sudarymà).
+--
+Vartotojo reikalavimai turi apraðyti funkc. ir nefunkc. reikalavimus taip, kad jie bûtø suprantami sistemos 
+vartotojø, kurie neturi detaliø techniniø þiniø. Jie apibrëþti, naudojant natûralià kalbà, lenteles ir diagramas.
+Problemos: aiðkumo trûkumas(sunku pasiekti tikslumà), painiava(funkc. ir nefunkc. susimaiðo), susijungimas 
+(keletas skirtingø reikalavimø gali bûti iðreikðti kartu).
+Reikalavimams reikia pasiûlyti standartiná formatà ir naudoti visiems reikalav., naudoti kalbà tinkamu bûdu (turi,
+turëtø), naudoti teksto paryðkinimà, vengti kompiuteriniø þargonø naudojimo.
+--
+Sistemos reikalavimai - vartotojø reikalavimø detalesnës specifikacijos, tarnauja kaip bazë kuriant sistemà,
+gali bûti naudojama kaip dalis sistemos kontrakto, gali bûti iðreikðti, naudojant sistemos modelius, modeliavimà.
+Reikalavimai skelbia kà sistema turi daryti, o proejektas - kaip tai padaryti.
+Problemos dël specifikacijø natûralia kalba: dviprasmiðkumas(tà patá þodá turi interpretuoti taip pat), per didelis
+lankstumas(tas pats dalykas gali bûti pasakytas daugeliu bûdø), moduliarizacijos trûkumas.
+Alternatyvos: struktûrizuota nat. kalba, projekto apraðymo kalba, grafiniai þymëjimai, matematinës specifikacijos.
+Formomis pagrástose specifikacijose nurodoma: funkcijos ar objekto apibrëþimas, ávesèiø apraðymas, rezultatø 
+apraðymas, kitø reikalingø objektø atpaþinimas, pradinës ir galutinës sàlygos, paðaliniai efektai.
+PDL pagrástas reikalavimø apibrëþimas: programavimo kalba, tik su lankstesnëmis iðraiðkomis.
+Daugiausia vyrauja dviejose situacijose: kur operacija yra specifikuota kaip veiksmø seka ir svarbi tvarka, kai
+aparatûrinës ir programinës árangos sàsajos turi bûti nustatytos.
+Trûkumai: negali bûti pakankamai iðraiðkinga, kad apibrëþtø srities sàvokas, specifikacija bus suprasta greièiau
+kaip projektas, o ne kaip specifikacija, paþymëjimai suprantami tik þmonëms, þinantiems programavimo kalbà.
+Sàsajos specifikavimas: dauguma sistemø turi dirbti su kitomis sistemomis ir bendravimo interfeisai turi bûti
+nurodyti kaip dalis reikalavimø. Trys tipai: procedûriniai interfeisai, struktûros duomenø, kuriais vyksta
+apsikeitimas, duomenø atvaizdavimas. Formalûs apraðymai - efektyvi technika, specifikuojant sàsajà.
+--
+Reikalavimø inþinerija - procesas paslaugø, kuriø vartotojas reikalauja ið sistemos ir apribojimø, pagal kuriuos
+sistema dirba ir yra kuriama, nustatymui.
+Procesas: reikalavimø iðgavimas(reikalavimø iðkëlimas, apimantis techniná personalà, dirbantá su uþsakovais,
+kas suþinotø apie taikymo sritá, paslaugas, kurias turëtø teikti sistema), analizë, atestavimas(árodinëjama, kad
+reikalavimai apibûdina tikrai tokià sistemà, kokios nori vartotojas: teisingumas, nuoseklumas, pilnumas, 
+realistiðkumas, patikrinamumas. Metodika: apþvalga, prototipø kûrimas, testavimo atvejø generavimas, automatizuota
+nuoseklumo analizë), vadyba.
+Galimybiø tyrimas (ar verta toliau kurti siûlomà sistemà)
+Analizës problemos: suinteresuoti asmenys neþino, ko nori, iðreiðkia reikalavimus savais terminais, gali kelti 
+tarpusavyje nesuderinamø reikalavimø, reikalavimai keièiasi proceso metu.
+Sistemos modeliai: analizës metu naudojami skirtingi modeliai: padalinimas (identifikuoja struktûrinius ryðius
+tarp esybiø), apibendrinimas(identifikuoja bendrumus tarp esybiø), projekcija(ident.skirtingus poþiûrius á problem.)
+--
+Reikalavimø dokumentas: oficialus pareiðkimas, ko reikalaujama ið sistemos kûrëjø, turi bûti átraukta reikalavimø
+apibrëþimas ir specifikacija. Jis turi kaip galima labiau nusakyti KÀ sistema turi padaryti, negu tai, KAIP ji turi
+tai padaryti. Dokuento vartotojai: klientai, vadybininkai, projektuotojai, testuotojai, palaikymo inþinieriai.
+Reikalavimai: turi nustatyti iðotiná sistemos elgesá, realizavimo apribojimus, bûti lengvai keièiamas, kaip vadovas
+programinës árangos palaikymui, vertinti gyvavimo ciklà, charakterizuoti atsakymus á netikëtus ávykius.
+IEEE standartas: ávadas, bendras apraðymas, konkretûs reikalavimai, priedai, indeksas.
+Dokumento struktûra: ávadas, sàraðas techniniø reikalavimø, vartotojo reikalavimø apibrëþimas, sistemos architektûra,
+reikalavimø specifikacija, modeliai, tobulinimas.
+
+
+

@@ -1,0 +1,127 @@
+****** Automobiliø masyvas Nr. 1 ******
+   |---------------|------------|---------|
+   |Pavadinimas    |Metai       |Litrai   |
+   |---------------|------------|---------|
+1  |Bravo          |1998        |2.10     |
+2  |Panda          |2000        |2.20     |
+3  |Unoda          |2003        |1.30     |
+4  |Punto          |2005        |1.60     |
+5  |Multipla       |2009        |1.90     |
+6  |Galaxyla       |2005        |2.20     |
+7  |Galaxy1a       |2005        |2.20     |
+8  |Kalaxy1a       |2008        |1.60     |
+9  |Mondeo1a       |2008        |2.40     |
+10 |Mondeo1a       |2008        |2.40     |
+11 |Escort1a       |2009        |2.50     |
+12 |Paskutine      |2016        |9.90     |
+   |---------------|------------|---------|
+
+****** Automobiliø masyvas Nr. 2 ******
+   |---------------|------------|---------|
+   |Pavadinimas    |Metai       |Litrai   |
+   |---------------|------------|---------|
+1  |Escort1        |2009        |2.50     |
+2  |Fiesta1        |2010        |1.60     |
+3  |Fiesta1        |2010        |1.60     |
+4  |Corolla        |2003        |2.30     |
+5  |Celicaa        |2005        |1.70     |
+6  |Avensis        |2007        |2.10     |
+7  |Aurisis        |2008        |2.40     |
+8  |Yarisis        |2012        |2.50     |
+9  |Priusis        |2014        |2.10     |
+10 |Passats        |1996        |2.20     |
+11 |Golfats        |1999        |2.40     |
+12 |Paskutine      |2016        |9.90     |
+   |---------------|------------|---------|
+
+****** Automobiliø masyvas Nr. 3 ******
+   |---------------|------------|---------|
+   |Pavadinimas    |Metai       |Litrai   |
+   |---------------|------------|---------|
+1  |Polo           |2001        |1.60     |
+2  |Touran         |2003        |2.90     |
+3  |Sharan         |2009        |2.80     |
+4  |V8aran         |2009        |2.40     |
+5  |A4aran         |2009        |2.40     |
+6  |Coupen         |2010        |2.30     |
+7  |TTupen         |2010        |2.20     |
+8  |Q3upen         |2011        |2.80     |
+9  |A8upen         |2015        |2.30     |
+10 |Bravo2         |1998        |2.10     |
+11 |Panda2         |2000        |2.20     |
+12 |Paskutine      |2016        |9.90     |
+   |---------------|------------|---------|
+
+****** Automobiliø masyvas Nr. 4 ******
+   |---------------|------------|---------|
+   |Pavadinimas    |Metai       |Litrai   |
+   |---------------|------------|---------|
+1  |Panda3         |2000        |2.20     |
+2  |Bravo3         |1998        |2.10     |
+3  |A84453         |2015        |2.30     |
+4  |Q3Q253         |2011        |2.80     |
+5  |TTQQ53         |2010        |2.20     |
+6  |A44453         |2009        |2.40     |
+7  |Kukli3         |2000        |2.20     |
+8  |Mazai3         |1998        |2.10     |
+9  |Masinyte       |2015        |2.30     |
+10 |Riedayte       |2011        |2.80     |
+11 |Keliuyte       |2010        |2.20     |
+12 |Paskutine      |2016        |9.90     |
+   |---------------|------------|---------|
+
+****** Automobiliø masyvas Nr. 5 ******
+   |---------------|------------|---------|
+   |Pavadinimas    |Metai       |Litrai   |
+   |---------------|------------|---------|
+1  |Raudona        |2008        |2.40     |
+2  |Zaliana        |2012        |2.50     |
+3  |Melynaa        |2014        |2.10     |
+4  |Geltona        |1996        |2.20     |
+5  |Rozinea        |1999        |2.40     |
+6  |Oranzine       |2009        |2.40     |
+7  |Juodaine       |2009        |2.40     |
+8  |Baltaine       |2010        |2.30     |
+9  |Violetine      |2008        |2.40     |
+10 |Melsvaine      |2008        |2.40     |
+11 |Zydraaine      |2009        |2.50     |
+12 |Paskutine      |2016        |9.90     |
+   |---------------|------------|---------|
+
+****** Automobiliø masyvas Nr. 6 ******
+   |---------------|------------|---------|
+   |Pavadinimas    |Metai       |Litrai   |
+   |---------------|------------|---------|
+1  |Masina1        |2001        |2.90     |
+2  |Masina2        |2011        |2.00     |
+3  |Masina3        |2011        |2.10     |
+4  |Masina4        |1991        |2.20     |
+5  |Masina5        |1991        |2.30     |
+6  |Masina6        |2001        |2.40     |
+7  |Masina7        |2001        |2.50     |
+8  |Masina8        |2011        |2.60     |
+9  |Masina9        |2001        |2.70     |
+10 |Masina10       |2001        |2.80     |
+11 |Masina11       |2001        |2.90     |
+12 |Paskutine      |2016        |9.90     |
+   |---------------|------------|---------|
+
+*******************************************
+Rezultatai
+*******************************************
+   |------------------------------------------------------------------------------------------|------------|---------|
+   |Sujungti pavadinimai                                                                      |Metai       |Litrai   |
+   |------------------------------------------------------------------------------------------|------------|---------|
+1  |Bravo          Escort1        Polo           Panda3         Raudona        Masina1        |12017       |13.70    |
+2  |Panda          Fiesta1        Touran         Bravo3         Zaliana        Masina2        |12034       |13.30    |
+3  |Unoda          Fiesta1        Sharan         A84453         Melynaa        Masina3        |12062       |12.20    |
+4  |Punto          Corolla        V8aran         Q3Q253         Geltona        Masina4        |12015       |13.50    |
+5  |Multipla       Celicaa        A4aran         TTQQ53         Rozinea        Masina5        |12023       |12.90    |
+6  |Galaxyla       Avensis        Coupen         A44453         Oranzine       Masina6        |12041       |13.80    |
+7  |Galaxy1a       Aurisis        TTupen         Kukli3         Juodaine       Masina7        |12033       |13.90    |
+8  |Kalaxy1a       Yarisis        Q3upen         Mazai3         Baltaine       Masina8        |12050       |13.90    |
+9  |Mondeo1a       Priusis        A8upen         Masinyte       Violetine      Masina9        |12061       |14.20    |
+10 |Mondeo1a       Passats        Bravo2         Riedayte       Melsvaine      Masina10       |12022       |14.70    |
+11 |Escort1a       Golfats        Panda2         Keliuyte       Zydraaine      Masina11       |12028       |14.70    |
+12 |Paskutine      Paskutine      Paskutine      Paskutine      Paskutine      Paskutine      |12096       |59.40    |
+   |------------------------------------------------------------------------------------------|------------|---------|

@@ -1,0 +1,73 @@
+SIMAN Run Controller.
+
+0.56111111 Hours>
+                                      ARENA Simulation Results
+                          mangirdas.kazlauskas@inbox.lt - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/19/2017
+Analyst: mangirdas.kazlauskas@inbox.lt                               Model revision date:12/19/2017
+
+Replication ended at time      : 0.56111111 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Pica.VATime                                     --         --         --         --          0
+Pica.NVATime                                    --         --         --         --          0
+Pica.WaitTime                                   --         --         --         --          0
+Pica.TranTime                                   --         --         --         --          0
+Pica.OtherTime                                  --         --         --         --          0
+Pica.TotalTime                                  --         --         --         --          0
+Mesainis.VATime                                 --         --         --         --          0
+Mesainis.NVATime                                --         --         --         --          0
+Mesainis.WaitTime                               --         --         --         --          0
+Mesainis.TranTime                               --         --         --         --          0
+Mesainis.OtherTime                              --         --         --         --          0
+Mesainis.TotalTime                              --         --         --         --          0
+Uzsakymo ruosimas 1.Queue.WaitingTime       .13088     (Insuf)    .00000     .19767          4    
+Uzsakymo ruosimas 2.Queue.WaitingTime       .13981     (Insuf)    .06111     .21850          2    
+Pakviesti padaveja.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          1    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Pica.WIP                                    1.6032     (Insuf)    .00000     2.0000     2.0000    
+Mesainis.WIP                                3.9593     (Insuf)    .00000     6.0000     6.0000    
+Kepejas.NumberBusy                          1.0000     (Insuf)    .00000     1.0000     1.0000    
+Kepejas.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kepejas.Utilization                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Uzsakymo ruosimas 1.Queue.NumberInQueue     1.6643     (Insuf)    .00000     4.0000     2.0000    
+Uzsakymo ruosimas 2.Queue.NumberInQueue     .49832     (Insuf)    .00000     1.0000     .00000    
+Pakviesti padaveja.Queue.NumberInQueue      1.5089     (Insuf)    .00000     4.0000     4.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Maistas issinesti                                 0  Infinite
+Maistas vietoje                                   0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Pica.NumberIn                               2.0000    
+Pica.NumberOut                              .00000    
+Mesainis.NumberIn                           6.0000    
+Mesainis.NumberOut                          .00000    
+Kepejas.NumberSeized                        6.0000    
+Kepejas.ScheduledUtilization                1.0000    
+System.NumberOut                            .00000    
+
+
+Simulation run time: 0.17 minutes.
+Simulation run complete.

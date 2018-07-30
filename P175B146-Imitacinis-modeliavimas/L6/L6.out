@@ -1,0 +1,100 @@
+SIMAN Run Controller.
+
+475.50183 Minutes>
+                                      ARENA Simulation Results
+                          mangirdas.kazlauskas@inbox.lt - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/18/2017
+Analyst: mangirdas.kazlauskas@inbox.lt                               Model revision date:12/18/2017
+
+Replication ended at time      : 475.50183 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+masina.VATime                                   --         --         --         --          0
+masina.NVATime                                  --         --         --         --          0
+masina.WaitTime                                 --         --         --         --          0
+masina.TranTime                                 --         --         --         --          0
+masina.OtherTime                                --         --         --         --          0
+masina.TotalTime                                --         --         --         --          0
+klientai.VATime                             .00000     (Insuf)    .00000     .00000         32    
+klientai.NVATime                            .00000     (Insuf)    .00000     .00000         32    
+klientai.WaitTime                           .00000     (Insuf)    .00000     .00000         32    
+klientai.TranTime                           .00000     (Insuf)    .00000     .00000         32    
+klientai.OtherTime                          .00000     (Insuf)    .00000     .00000         32    
+klientai.TotalTime                          .00000     (Insuf)    .00000     .00000         32    
+Kaire.VATime                                    --         --         --         --          0
+Kaire.NVATime                                   --         --         --         --          0
+Kaire.WaitTime                                  --         --         --         --          0
+Kaire.TranTime                                  --         --         --         --          0
+Kaire.OtherTime                                 --         --         --         --          0
+Kaire.TotalTime                                 --         --         --         --          0
+Desine.VATime                                   --         --         --         --          0
+Desine.NVATime                                  --         --         --         --          0
+Desine.WaitTime                                 --         --         --         --          0
+Desine.TranTime                                 --         --         --         --          0
+Desine.OtherTime                                --         --         --         --          0
+Desine.TotalTime                                --         --         --         --          0
+deze.VATime                                 .00000     (Insuf)    .00000     .00000         17    
+deze.NVATime                                .00000     (Insuf)    .00000     .00000         17    
+deze.WaitTime                               154.05     (Insuf)    98.467     233.20         17    
+deze.TranTime                               35.395     (Insuf)    7.4030     72.031         17    
+deze.OtherTime                              .00000     (Insuf)    .00000     .00000         17    
+deze.TotalTime                              188.46     (Insuf)    105.00     266.89         17    
+Batu pora kaip vienas objektas.Queue.Waiti  .00000     (Insuf)    .00000     .00000         64    
+Laukia pirkimo signalo.Queue.WaitingTime    97.252     (Insuf)    36.350     200.21         17    
+Batu poravimas pagal puses.Queue1.WaitingT  .08573     (Insuf)    .00000     2.7433         32    
+Batu poravimas pagal puses.Queue2.WaitingT  22.049     (Insuf)    .00000     51.787         32    
+Krovinio dydis.Queue.WaitingTime            29.556     (Insuf)    .00000     66.273         30    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+masina.WIP                                  .53216     (Insuf)    .00000     2.0000     1.0000    
+klientai.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Kaire.WIP                                   9.7709     (Insuf)    .00000     17.000     15.000    
+Desine.WIP                                  11.327     (Insuf)    .00000     19.000     16.000    
+deze.WIP                                    9.6978     (Insuf)    .00000     17.000     15.000    
+Batu pora kaip vienas objektas.Queue.Numbe  .00000     (Insuf)    .00000     2.0000     .00000    
+Laukia pirkimo signalo.Queue.NumberInQueue  5.0864     (Insuf)    .00000     14.000     8.0000    
+Batu poravimas pagal puses.Queue1.NumberIn  .00577     (Insuf)    .00000     1.0000     .00000    
+Batu poravimas pagal puses.Queue2.NumberIn  1.5318     (Insuf)    .00000     4.0000     1.0000    
+Krovinio dydis.Queue.NumberInQueue          1.9506     (Insuf)    .00000     5.0000     2.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Kiek gauta?                                      25  Infinite
+Kiek klientu nepirko?                            23  Infinite
+Kiek nupirko?                                    18  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+masina.NumberIn                             6.0000    
+masina.NumberOut                            5.0000    
+klientai.NumberIn                           32.000    
+klientai.NumberOut                          32.000    
+Kaire.NumberIn                              32.000    
+Kaire.NumberOut                             17.000    
+Desine.NumberIn                             33.000    
+Desine.NumberOut                            17.000    
+deze.NumberIn                               32.000    
+deze.NumberOut                              17.000    
+System.NumberOut                            49.000    
+
+
+Simulation run time: 0.08 minutes.
+Simulation run complete.

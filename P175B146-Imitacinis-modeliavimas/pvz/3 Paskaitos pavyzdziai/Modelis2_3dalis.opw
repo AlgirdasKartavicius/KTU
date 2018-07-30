@@ -1,0 +1,11 @@
+[RESOURCES]
+Ana
+Jonas
+Simas
+[VARIABLES]
+Process 1.NumberOut
+Dispose 1.NumberOut
+Create 1.NumberOut
+Separate 1.NumberOut Dup
+Process 1.NumberIn
+Separate 1.NumberOut Orig

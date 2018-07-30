@@ -1,0 +1,142 @@
+********   Informatikos    ********
+     Vardas   Kursas   Vidurkis   
+  1) Asta       2         7.01     
+  2) Sonata     3         9.13     
+  3) Sonata     3         9.13     
+  4) Mykolas    1         6.95     
+  5) Aldona     3         9.13     
+********    Matematikos    ********
+     Vardas   Kursas   Vidurkis   
+  1) Arturas    2         7.01     
+  2) Viktoras   2         8.65     
+  3) Arturas    5         8.32     
+  4) Antanas    1         6.95     
+  5) Kazys      2         8.65     
+  6) Petras     2         7.01     
+  7) Sonata     3         9.13     
+  8) Sonata     3         9.13     
+  9) Jonas      1         6.95     
+ 10) Martynas   3         9.13     
+********        Fizikos    ********
+     Vardas   Kursas   Vidurkis   
+  1) Petras     2         7.01     
+  2) Vacys      2         8.65     
+  3) Robertas   3         6.43     
+  4) Sonata     3         9.13     
+  5) Sonata     3         9.13     
+  6) Mykolas    1         6.95     
+  7) Aldona     3         9.13     
+  8) Asta       2         7.01     
+  9) Viktoras   2         8.65     
+ 10) Arturas    5         8.32     
+ 11) Antanas    1         6.95     
+ 12) Kazys      2         8.65     
+********     Mechanikos    ********
+     Vardas   Kursas   Vidurkis   
+  1) Asta       2         7.01     
+  2) Sonata     3         9.13     
+  3) Sonata     3         9.13     
+  4) Jonas      1         6.95     
+  5) Martynas   3         9.13     
+  6) Sonata     3         9.13     
+  7) Sonata     3         9.13     
+  8) Mykolas    1         6.95     
+  9) Aldona     3         9.13     
+ 10) Asta       2         7.01     
+ 11) Viktoras   2         8.65     
+ 12) Arturas    5         8.32     
+ 13) Vytas      3         7.85     
+********       Statybos    ********
+     Vardas   Kursas   Vidurkis   
+  1) Simas      3         6.43     
+  2) Arturas    2         7.01     
+  3) Vacys      2         8.65     
+  4) Robertas   3         6.43     
+  5) Sonata     3         9.13     
+  6) Sonata     3         9.13     
+  7) Robertas   3         6.43     
+  8) Sonata     3         9.13     
+  9) Sonata     3         9.13     
+ 10) Sonata     3         9.13     
+ 11) Sonata     3         9.13     
+ 12) Jonas      1         6.95     
+ 13) Zigmas     3         9.13     
+ 14) Arturas    2         7.01     
+************************************
+     Rikiuojamas_laukas   Kiekis   
+  1) 1Sonata                1        
+  2) 1Mykolas               1        
+  3) 1Aldona                1        
+  4) 1Asta                  1        
+************************************
+     Rikiuojamas_laukas   Kiekis   
+  1) 1Viktoras              1        
+  2) 1Arturas               1        
+  3) 1Antanas               1        
+  4) 1Kazys                 1        
+  5) 1Petras                1        
+  6) 1Sonata                1        
+  7) 1Jonas                 1        
+  8) 1Martynas              1        
+  9) 1Arturas               1        
+************************************
+     Rikiuojamas_laukas   Kiekis   
+  1) 1Jonas                 1        
+  2) 1Martynas              1        
+  3) 1Sonata                1        
+  4) 1Mykolas               1        
+  5) 1Aldona                1        
+  6) 1Asta                  1        
+  7) 1Viktoras              1        
+  8) 1Arturas               1        
+  9) 1Vytas                 1        
+ 10) 1Asta                  1        
+************************************
+     Rikiuojamas_laukas   Kiekis   
+  1) 1Vacys                 1        
+  2) 1Robertas              1        
+  3) 1Sonata                1        
+  4) 1Mykolas               1        
+  5) 1Aldona                1        
+  6) 1Asta                  1        
+  7) 1Viktoras              1        
+  8) 1Arturas               1        
+  9) 1Antanas               1        
+ 10) 1Kazys                 1        
+ 11) 1Petras                1        
+************************************
+     Rikiuojamas_laukas   Kiekis   
+  1) 1Arturas               1        
+  2) 1Vacys                 1        
+  3) 1Robertas              1        
+  4) 1Sonata                1        
+  5) 1Robertas              1        
+  6) 1Jonas                 1        
+  7) 1Zigmas                1        
+  8) 1Arturas               1        
+  9) 1Simas                 1        
+ 10) 1Mykolas               1        
+ 11) 1Aldona                1        
+ 12) 1Asta                  1        
+--------------------------------
+     Bendras Giju Masyvas       
+--------------------------------
+--------------------------------
+     Rikiuojamas laukas   Kiekis
+--------------------------------
+  1) Aldona                 3        
+  2) Antanas                2        
+  3) Arturas                6        
+  4) Asta                   4        
+  5) Jonas                  3        
+  6) Kazys                  2        
+  7) Martynas               2        
+  8) Mykolas                3        
+  9) Petras                 2        
+ 10) Robertas               3        
+ 11) Simas                  1        
+ 12) Sonata                 16       
+ 13) Vacys                  2        
+ 14) Viktoras               3        
+ 15) Vytas                  1        
+ 16) Zigmas                 1        

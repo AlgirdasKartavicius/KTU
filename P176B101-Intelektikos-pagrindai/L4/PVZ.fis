@@ -1,0 +1,69 @@
+[System]
+Name='PVZ'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=1
+NumRules=21
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Amzius'
+Range=[18 65]
+NumMFs=4
+MF1='labai_jaunas':'zmf',[18 30]
+MF2='jaunas':'trapmf',[25 31 37 43]
+MF3='vidutinis':'trapmf',[35 43 47 55]
+MF4='rizikinis':'smf',[46 62]
+
+[Input2]
+Name='Pajamos'
+Range=[1000 12000]
+NumMFs=4
+MF1='mazos_p':'zmf',[970 3500]
+MF2='vidutines_p':'trimf',[1900 4000 6200]
+MF3='dideles_p':'trimf',[4800 7500 10000]
+MF4='labai_dideles_p':'smf',[8000 16000]
+
+[Input3]
+Name='Seima'
+Range=[1 8]
+NumMFs=3
+MF1='maza_s':'zmf',[1 4]
+MF2='vidutine_s':'trimf',[2 4 6]
+MF3='didele_s':'smf',[4 8]
+
+[Output1]
+Name='Paskola'
+Range=[50 800]
+NumMFs=3
+MF1='paskola_m':'trimf',[-250 50 300]
+MF2='paskola_v':'trimf',[50 280 700]
+MF3='paskola_d':'smf',[400 700]
+
+[Rules]
+-4 1 -3, 1 (1) : 1
+1 2 1, 1 (1) : 1
+1 2 2, 1 (1) : 1
+1 2 3, 1 (1) : 1
+2 2 -3, 2 (1) : 1
+2 2 3, 1 (1) : 1
+3 2 -3, 2 (1) : 1
+3 2 3, 1 (1) : 1
+4 2 -3, 1 (1) : 1
+1 3 -3, 2 (1) : 1
+1 3 3, 1 (1) : 1
+2 3 -1, 2 (1) : 1
+2 3 1, 3 (1) : 1
+3 3 -1, 2 (1) : 1
+3 3 1, 3 (1) : 1
+4 3 -3, 2 (1) : 1
+4 3 3, 1 (1) : 1
+-4 4 -3, 3 (1) : 1
+4 4 -3, 2 (1) : 1
+4 4 3, 1 (1) : 1
+-4 4 3, 3 (1) : 1

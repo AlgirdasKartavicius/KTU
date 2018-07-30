@@ -1,0 +1,10 @@
+a
+a
+a
+a  aaa, aaa
+
+a b c d e f
+
+ab cd ef
+
+ad be cf

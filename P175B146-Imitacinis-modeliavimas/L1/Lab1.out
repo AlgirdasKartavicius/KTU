@@ -1,0 +1,57 @@
+
+                                      ARENA Simulation Results
+                          mangirdas.kazlauskas@inbox.lt - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 9/28/2017
+Analyst: mangirdas.kazlauskas@inbox.lt                               Model revision date: 9/28/2017
+
+Replication ended at time      : 60.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+klientas.VATime                             3.1714     (Insuf)    1.7739     4.5806         31    
+klientas.NVATime                            .00000     (Insuf)    .00000     .00000         31    
+klientas.WaitTime                           2.9741     (Insuf)    .00000     16.214         31    
+klientas.TranTime                           .00000     (Insuf)    .00000     .00000         31    
+klientas.OtherTime                          .00000     (Insuf)    .00000     .00000         31    
+klientas.TotalTime                          6.1455     (Insuf)    1.8067     20.095         31    
+Kasa1.Queue.WaitingTime                     3.7320     (Insuf)    .00000     15.830         17    
+Kasa2.Queue.WaitingTime                     2.8019     (Insuf)    .00000     16.214         16    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+klientas.WIP                                4.7639     (Insuf)    .00000     14.000     14.000    
+kasininke1.NumberBusy                       .89188     (Insuf)    .00000     1.0000     1.0000    
+kasininke1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+kasininke1.Utilization                      .89188     (Insuf)    .00000     1.0000     1.0000    
+kasininke2.NumberBusy                       .83436     (Insuf)    .00000     1.0000     1.0000    
+kasininke2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+kasininke2.Utilization                      .83436     (Insuf)    .00000     1.0000     1.0000    
+Kasa1.Queue.NumberInQueue                   1.9678     (Insuf)    .00000     8.0000     8.0000    
+Kasa2.Queue.NumberInQueue                   1.0698     (Insuf)    .00000     5.0000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+klientas.NumberIn                           45.000    
+klientas.NumberOut                          31.000    
+kasininke1.NumberSeized                     17.000    
+kasininke1.ScheduledUtilization             .89188    
+kasininke2.NumberSeized                     16.000    
+kasininke2.ScheduledUtilization             .83436    
+System.NumberOut                            31.000    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.

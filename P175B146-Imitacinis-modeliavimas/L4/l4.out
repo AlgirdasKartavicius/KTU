@@ -1,0 +1,150 @@
+SIMAN Run Controller.
+
+20.0 Seconds>
+                                      ARENA Simulation Results
+                          mangirdas.kazlauskas@inbox.lt - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :11/ 8/2017
+Analyst: mangirdas.kazlauskas@inbox.lt                               Model revision date:11/ 8/2017
+
+Replication ended at time      : 20.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Sv_2_Q Queue Time                               --         --         --         --          0
+Sv_1_Q Queue Time                           .00000     (Insuf)    .00000     .00000          1    
+Sv_3_Q Queue Time                               --         --         --         --          0
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+masina_1.VATime                                 --         --         --         --          0
+masina_1.NVATime                                --         --         --         --          0
+masina_1.WaitTime                               --         --         --         --          0
+masina_1.TranTime                               --         --         --         --          0
+masina_1.OtherTime                              --         --         --         --          0
+masina_1.TotalTime                              --         --         --         --          0
+masina_2.VATime                                 --         --         --         --          0
+masina_2.NVATime                                --         --         --         --          0
+masina_2.WaitTime                               --         --         --         --          0
+masina_2.TranTime                               --         --         --         --          0
+masina_2.OtherTime                              --         --         --         --          0
+masina_2.TotalTime                              --         --         --         --          0
+masina_3.VATime                                 --         --         --         --          0
+masina_3.NVATime                                --         --         --         --          0
+masina_3.WaitTime                               --         --         --         --          0
+masina_3.TranTime                               --         --         --         --          0
+masina_3.OtherTime                              --         --         --         --          0
+masina_3.TotalTime                              --         --         --         --          0
+2_srauto_eile.WaitingTime                       --         --         --         --          0
+3_srauto_eile.WaitingTime                       --         --         --         --          0
+1 sr uzima 1 ir 2 zonas.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000          1    
+3 sr uzima 1 ir 3 zonas.Queue.WaitingTime       --         --         --         --          0
+3 sr uzima 3 zona.Queue.WaitingTime             --         --         --         --          0
+1 sr uzima 1 zona.Queue.WaitingTime         .00000     (Insuf)    .00000     .00000          1    
+2 sr uzima 2 zona.Queue.WaitingTime             --         --         --         --          0
+Sv_1_Q.WaitingTime                          .00000     (Insuf)    .00000     .00000          1    
+2 sr uzima 2 ir 3 zonas.Queue.WaitingTime       --         --         --         --          0
+Sv_2_Q.WaitingTime                              --         --         --         --          0
+Sv_3_Q.WaitingTime                              --         --         --         --          0
+1_srauto_eile.WaitingTime                   1.5384     (Insuf)    1.5384     1.5384          1    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Sv_2 Available                              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Sv_3 Available                              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Sv_1 Busy                                   1.0000     (Insuf)    .00000     1.0000     1.0000    
+Sv_2 Busy                                   .00000     (Insuf)    .00000     .00000     .00000    
+Sv_3 Busy                                   .00000     (Insuf)    .00000     .00000     .00000    
+# in Sv_1_Q                                 .00000     (Insuf)    .00000     .00000     .00000    
+# in Sv_2_Q                                 .00000     (Insuf)    .00000     .00000     .00000    
+# in Sv_3_Q                                 .00000     (Insuf)    .00000     .00000     .00000    
+Sv_1 Available                              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Entity 1.WIP                                1.0000     (Insuf)    .00000     1.0000     1.0000    
+masina_1.WIP                                2.4333     (Insuf)    .00000     3.0000     3.0000    
+masina_2.WIP                                1.7648     (Insuf)    .00000     2.0000     2.0000    
+masina_3.WIP                                1.8296     (Insuf)    .00000     2.0000     2.0000    
+zona_1.NumberBusy                           .45000     (Insuf)    .00000     1.0000     1.0000    
+zona_1.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+zona_1.Utilization                          .45000     (Insuf)    .00000     1.0000     1.0000    
+zona_2.NumberBusy                           .20000     (Insuf)    .00000     1.0000     1.0000    
+zona_2.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+zona_2.Utilization                          .20000     (Insuf)    .00000     1.0000     1.0000    
+zona_3.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+zona_3.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+zona_3.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
+Sv_1.NumberBusy                             1.0000     (Insuf)    .00000     1.0000     1.0000    
+Sv_1.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Sv_1.Utilization                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Sv_2.NumberBusy                             .00000     (Insuf)    .00000     .00000     .00000    
+Sv_2.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Sv_2.Utilization                            .00000     (Insuf)    .00000     .00000     .00000    
+Sv_3.NumberBusy                             .00000     (Insuf)    .00000     .00000     .00000    
+Sv_3.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Sv_3.Utilization                            .00000     (Insuf)    .00000     .00000     .00000    
+2_srauto_eile.NumberInQueue                 .76488     (Insuf)    .00000     2.0000     2.0000    
+3_srauto_eile.NumberInQueue                 .82966     (Insuf)    .00000     2.0000     2.0000    
+1 sr uzima 1 ir 2 zonas.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+3 sr uzima 1 ir 3 zonas.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+3 sr uzima 3 zona.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+1 sr uzima 1 zona.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+2 sr uzima 2 zona.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Sv_1_Q.NumberInQueue                        .00000     (Insuf)    .00000     .00000     .00000    
+2 sr uzima 2 ir 3 zonas.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Sv_2_Q.NumberInQueue                        .00000     (Insuf)    .00000     .00000     .00000    
+Sv_3_Q.NumberInQueue                        .00000     (Insuf)    .00000     .00000     .00000    
+1_srauto_eile.NumberInQueue                 .28330     (Insuf)    .00000     2.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+3 sr statistika 32 kryptyje                       0  Infinite
+1 sr statistika 12 kryptyje                       0  Infinite
+3 sr statistika 31 kryptyje                       0  Infinite
+2 sr statistika 21 kryptyje                       0  Infinite
+2 sr statistika 23 kryptyje                       0  Infinite
+1 sr statistika 13 kryptyje                       0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          .00000    
+masina_1.NumberIn                           3.0000    
+masina_1.NumberOut                          .00000    
+masina_2.NumberIn                           2.0000    
+masina_2.NumberOut                          .00000    
+masina_3.NumberIn                           2.0000    
+masina_3.NumberOut                          .00000    
+zona_1.NumberSeized                         2.0000    
+zona_1.ScheduledUtilization                 .45000    
+zona_2.NumberSeized                         1.0000    
+zona_2.ScheduledUtilization                 .20000    
+zona_3.NumberSeized                         .00000    
+zona_3.ScheduledUtilization                 .00000    
+Sv_1.NumberSeized                           1.0000    
+Sv_1.ScheduledUtilization                   1.0000    
+Sv_2.NumberSeized                           .00000    
+Sv_2.ScheduledUtilization                   .00000    
+Sv_3.NumberSeized                           .00000    
+Sv_3.ScheduledUtilization                   .00000    
+System.NumberOut                            .00000    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.

@@ -1,0 +1,46 @@
+[System]
+Name='projectFunctions'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=1
+NumRules=0
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='kava'
+Range=[1.5 3.5]
+NumMFs=3
+MF1='Cheap':'trapmf',[-1.5 1.5 1.8 2.5]
+MF2='Normal':'trimf',[2 2.5 3]
+MF3='Expensive':'trapmf',[2.5 3.2 3.5 4]
+
+[Input2]
+Name='sriuba'
+Range=[2 5.5]
+NumMFs=3
+MF1='Cheap':'trapmf',[0.74 2 2.5 3.5]
+MF2='Normal':'trimf',[3 3.75 4.5]
+MF3='Expensive':'trapmf',[4 5 5.5 6]
+
+[Input3]
+Name='kepsnys'
+Range=[5 20]
+NumMFs=3
+MF1='Cheap':'trapmf',[4 5 7 12]
+MF2='Normal':'trimf',[8 11.5 15]
+MF3='Expensive':'trapmf',[13 18 20 21]
+
+[Output1]
+Name='restoranas'
+Range=[0 10]
+NumMFs=3
+MF1='Cheap':'trapmf',[-1 0 2 4]
+MF2='Affordable':'trimf',[2 5 8]
+MF3='Luxurious':'trapmf',[6 8 10 11]
+
+[Rules]

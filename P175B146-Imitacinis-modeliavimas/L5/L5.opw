@@ -1,0 +1,25 @@
+[RESOURCES]
+kolonele1
+kolonele2
+kolonele3
+kolonele4
+uzpildymo sklende
+[VARIABLES]
+Suma
+Naikinti.NumberOut
+Ar cisternoje maziau nei 400 litru degalu.NumberOut False
+kolonelems loginis
+Ipiltu degalu galutine suma
+Ar koloneles uzdarytos?.NumberOut True
+Ar koloneles uzdarytos?.NumberOut False
+Ar yra eiles prie koloneliu?.NumberOut False
+Degalu cisternos atvykimas.NumberOut
+Degalu kaina
+Sunaikinimas masinu su degalais.NumberOut
+Naikinimas.NumberOut
+Sunaikinimas masinu be degalu.NumberOut
+Ar yra eiles prie koloneliu?.NumberOut True
+Sumokejimas uz degalus.NumberIn
+Atvykstanciu masinu generavimas.NumberOut
+Ar cisternoje maziau nei 400 litru degalu.NumberOut True
+Sumokejimas uz degalus.NumberOut

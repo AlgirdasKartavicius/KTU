@@ -1,0 +1,15 @@
+[RESOURCES]
+Kasininke
+Kasininkas
+[VARIABLES]
+Aptarnavimas.NumberIn
+Aptarnavimas2.NumberOut
+Klientu atvykimas1.NumberOut
+Vip klientas?.NumberOut True
+Aptarnavimas2.NumberIn
+Klientu atvykimas.NumberOut
+Isvykimas2.NumberOut
+Aptarnavimas.NumberOut
+Isvykimas.NumberOut
+Klientu atvykimas2.NumberOut
+Vip klientas?.NumberOut False
